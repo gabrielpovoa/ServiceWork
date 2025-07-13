@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Air from "@/../public/air.png"
 import Bulb from "@/../public/bulbinstalling.png";
-import Lawn from "@/../public/lawn.png";
 import Security from "@/../public/security.png";
 import RadioComsTower from "@/../public/radiocomstower.png";
 import Banner from "@/../public/Banner.png";
