@@ -12,7 +12,7 @@ export const Banner = () => {
             style={{ backgroundImage: `url(${Cover.src})` }}>
 
             <Link href="/">
-                <Logo className="order-1" />
+                <Logo classname="order-1" />
             </Link>
 
             <Link
