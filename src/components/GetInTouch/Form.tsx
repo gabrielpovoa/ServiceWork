@@ -6,11 +6,25 @@ export const Form = () => {
     const [email, setEmail] = useState("");
     const [message, setMessage] = useState("");
     const [mounted, setMounted] = useState(false);
+    const [error, setError] = useState("");
+
     useEffect(() => setMounted(true), []);
 
     if (!mounted) return null;
+
+    const handleSubmit = (e:React.FormEvent) => {
+        e.preventDefault();
+
+        if(!name && !email && !message) {
+            setError("Before sending an e-mail, you need to fill out the filed")
+        }
+    }
+
     return (
-        <form className="max-w-xl w-full p-6 bg-white shadow-lg rounded-2xl space-y-4">
+        <form className="max-w-xl w-full p-6 bg-white shadow-lg rounded-2xl space-y-4" onSubmit={handleSubmit}>
+            {error &&
+                <span className="text-red-600 text-sm font-medium py-4">{error}</span>
+            }
             <div className="flex flex-col">
                 <label htmlFor="name" className="text-sm font-medium text-gray-700 mb-1">Full Name</label>
                 <input

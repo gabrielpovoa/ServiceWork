@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Air from "@/../public/air.png"
-import Welding from "@/../public/welding.png";
+import Bulb from "@/../public/bulbinstalling.png";
 import Lawn from "@/../public/lawn.png";
 import Security from "@/../public/security.png";
 import RadioComsTower from "@/../public/radiocomstower.png";
@@ -24,8 +24,8 @@ export const ImageCases = () => {
             />
 
             <Image
-                src={Lawn}
-                alt="Security"
+                src={Bulb}
+                alt="Bulb Aviation"
                 className="w-full h-52 md:h-64  object-cover rounded-lg"
             />
             <Image
