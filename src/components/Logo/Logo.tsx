@@ -13,7 +13,7 @@ const Logo = ({classname}:Props) => {
             width="160"
             height="80"
             priority
-            className={ `md:bg-[#F1D302] shadow-inner rounded-sm h-fit lg:max-w-60 max-w-[160px] pointer-events-none -translate-y-2 lg:-translate-y-4 p-0 ${classname}`}
+            className={ `shadow-inner rounded-sm h-fit lg:max-w-60 max-w-[160px] pointer-events-none -translate-y-2 lg:-translate-y-4 p-0 ${classname}`}
         />
     );
 };

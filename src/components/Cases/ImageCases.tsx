@@ -15,33 +15,33 @@ export const ImageCases = () => {
                 src={Banner}
                 alt="Banner"
                 className="w-full h-52 md:h-64 lg:h-full object-cover rounded-lg
-                   col-span-2 lg:col-span-2 lg:row-span-2 "
+                   col-span-2 lg:col-span-2 lg:row-span-2 hover:scale-95 transition duration-300"
             />
             <Image
                 src={Air}
                 alt="Welding"
-                className="w-full h-52 md:h-64  object-cover rounded-lg"
+                className="w-full h-52 md:h-64  object-cover rounded-lg hover:scale-95 transition duration-300"
             />
 
             <Image
                 src={Bulb}
                 alt="Bulb Aviation"
-                className="w-full h-52 md:h-64  object-cover rounded-lg"
+                className="w-full h-52 md:h-64  object-cover rounded-lg hover:scale-95 transition duration-300"
             />
             <Image
                 src={Security}
                 alt="Security"
-                className="w-full h-52 md:h-64  object-cover rounded-lg"
+                className="w-full h-52 md:h-64  object-cover rounded-lg hover:scale-95 transition duration-300"
             />
             <Image
                 src={RadioComsTower}
                 alt="Radio Communications Tower"
-                className="w-full h-52 md:h-64  object-cover rounded-lg"
+                className="w-full h-52 md:h-64  object-cover rounded-lg hover:scale-95 transition duration-300"
             />
             <Image
                 src={Lock}
                 alt="Welding 2"
-                className="w-full h-52 md:h-64  object-cover rounded-lg col-span-2 lg:col-span-1"
+                className="w-full h-52 md:h-64  object-cover rounded-lg col-span-2 lg:col-span-1 hover:scale-95 transition duration-300"
             />
         </div>
     );
