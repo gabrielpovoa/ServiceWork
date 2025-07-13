@@ -1,16 +1,15 @@
 type Props = {
     title: string;
-    color?: string; // espera cor hexadecimal, ex: "#FF0000"
+    color?: string;
 };
 
-export const HeadingTitle = ({ title, color }: Props) => {
+export const HeadingTitle = ({title, color}: Props) => {
     const textColor = color ?? "#454545";
 
     return (
         <h1
-            className={`py-8 text-4xl md:text-6xl font-bold`}
-            style={{ color: textColor }}
-        >
+            className={`py-4 text-3xl md:text-5xl font-bold`}
+            style={{color: textColor}}>
             {title}
         </h1>
     );

@@ -17,10 +17,11 @@ export const Banner = () => {
 
             <Link
                 href="#OurServices"
+                scroll={true}
                 className="
                     uppercase font-semibold order-0 md:order-2 md:border-2 text-white border-white
                     rounded-full w-40 md:w-60 text-center px-3 py-2
-                    hover:border-amber-400 md:bg-black/40 backdrop-blur-sm transition">
+                    hover:border-amber-400 md:bg-black/40 backdrop-blur-sm transition scroll-smooth">
                 Find Out More
             </Link>
         </section>
