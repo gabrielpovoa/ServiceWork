@@ -1,3 +1,19 @@
+# 🛠️ TelecomServices Landing Page
+
+A responsive and modern landing page built with **Next.js App Router**, **TailwindCSS**, and **TypeScript** — designed for service businesses like technical installations, small repairs, and infrastructure support.
+
+👉 Live Demo: [https://prontoja.vercel.app](https://prontoja.vercel.app)
+
+---
+
+## 🚀 Tech Stack
+
+- **Next.js 14+** with App Router
+- **TypeScript**
+- **TailwindCSS** for styling
+- **Vercel** for deployment
+- **AI-generated assets** (images, video banners)
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started

@@ -3,8 +3,8 @@ import {ImageCases} from "@/components/Cases/ImageCases";
 
 const Cases = () => {
     return (
-        <section className="px-6 py-4 container mx-auto flex  flex-col items-center justify-center">
-            <HeadingTitle title="What we Offer"/>
+        <section className="px-6 py-4 container mx-auto lg:flex flex-col items-center justify-center">
+            <HeadingTitle title="What we Offer" position="center"/>
 
             <div>
                 <ImageCases />

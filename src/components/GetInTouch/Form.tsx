@@ -21,7 +21,7 @@ export const Form = () => {
     }
 
     return (
-        <form className="max-w-xl w-full p-6 bg-white shadow-lg rounded-2xl space-y-4" onSubmit={handleSubmit}>
+        <form className="lg:max-w-xl w-full p-6 bg-white shadow-lg rounded-2xl space-y-4" onSubmit={handleSubmit}>
             {error &&
                 <span className="text-red-600 text-sm font-medium py-4">{error}</span>
             }
