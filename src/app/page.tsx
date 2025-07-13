@@ -8,7 +8,7 @@ import Partner from "@/components/Partners/Partner";
 
 export default function Home() {
     return (
-        <main className="p-0 md:pt-2">
+        <main className="p-0 md:pt-2 container mx-auto lg:px-12">
             <VideoBanner/>
             <OurServices/>
             <Cases/>
